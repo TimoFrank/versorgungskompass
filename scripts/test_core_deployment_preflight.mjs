@@ -16,7 +16,7 @@ const tagObject = "a".repeat(40);
 const fingerprint = "C".repeat(40);
 const evidenceRoot = "/synthetic-read-only-evidence";
 const buildTag = "core-preflight-fixture-1";
-const sourceRepository = "https://github.com/TimoFrank/mitmachen-gematik";
+const sourceRepository = "https://github.com/TimoFrank/versorgungskompass";
 const base = {
   ARTIFACT_REGISTRY: "registry.example.invalid/core", API_IMAGE: "registry.example.invalid/core/api:fixture",
   API_BASE_URL: "https://core.example.invalid", FRONTEND_BASE_URL: "https://core.example.invalid",

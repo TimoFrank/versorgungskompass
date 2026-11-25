@@ -1,6 +1,6 @@
 {
   "schemaVersion": "mitmachen-gematik-import/v1",
-  "repository": "https://github.com/TimoFrank/mitmachen-gematik",
+  "repository": "https://github.com/TimoFrank/versorgungskompass",
   "productScope": "gematik-core",
   "releaseEligible": false,
   "purpose": "Geprüfte Quellübergabe für den GitLab-URL-Import. Keine Betriebs- oder Release-Freigabe.",
@@ -11,7 +11,7 @@
     "originalExportManifest": "dokumentation/quellen/ursprungsmanifest.json",
     "originalExportManifestSha256": "0d407a57e6d8af3e593c4ed7c78e9bb39cb97a8c459cbd44201204c94cc76d48"
   },
-  "inventoryDigest": "sha256:c0cf0f04bbf9eb1ad3f1eda639b3aa686f572aed26b68ba368d5fc94eec8f620",
+  "inventoryDigest": "sha256:40741df219ffcba918ad4c9d553453bf718940042187e26461f76f71dbd19639",
   "files": [
     {
       "path": ".dockerignore",
@@ -40,8 +40,8 @@
     },
     {
       "path": "AGENTS.md",
-      "sha256": "078db361f19e54d6680150f88799f3ffe98a14f513016e837cbb45069fcee12a",
-      "size": 2302
+      "sha256": "345f5b9b23bd9b4241ff497191225f45747d54e30a9499c0f1e76d8c9e91d44c",
+      "size": 2303
     },
     {
       "path": "CONTRIBUTING.md",
@@ -55,8 +55,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "d4ed1dea6f8645b077a4ff644f566f7c33fbdcc4816a0df320c9ff418adc8455",
-      "size": 1886
+      "sha256": "1c777ea97efd183ee8568a9428b5d0f8873f647cafd3e1ce060b3d57bc610623",
+      "size": 1875
     },
     {
       "path": "SECURITY.md",
@@ -275,8 +275,8 @@
     },
     {
       "path": "dokumentation/assets/banner.svg",
-      "sha256": "de0858e3cd1821c6c4752cf6400c8c6b286913d2514217fc12bb4a24dc577b23",
-      "size": 3608
+      "sha256": "e09078dc4c11ce94476df20af90643ff5a11aa0872f294fc9b475f69a606d6bd",
+      "size": 7537
     },
     {
       "path": "dokumentation/assets/bereitstellung.svg",
@@ -315,8 +315,8 @@
     },
     {
       "path": "dokumentation/gematik/RELEASE_UND_UPDATES.md",
-      "sha256": "1bdb162f3377a2f98962c8a7cfa4863694b2a3596c4a90a80a801794dfb41b33",
-      "size": 3060
+      "sha256": "0cf66d5ba226c4ce50a0c795f2b6dc5bc1da731f8d8fd157c7de8a60a2f5ba88",
+      "size": 3061
     },
     {
       "path": "dokumentation/nutzung/Nutzerhandbuch.docx",
@@ -1005,8 +1005,8 @@
     },
     {
       "path": "scripts/lib/import-source.mjs",
-      "sha256": "b1ce4ce332a21c29f38969c242e5e1792610570c3d9c80d08ac03cc8a882579b",
-      "size": 5031
+      "sha256": "1a998889faa6d4921b997cf5da3a783a338b369188a77dfb5131fcf772fef2c7",
+      "size": 5032
     },
     {
       "path": "scripts/lib/local-proof-runtime.mjs",
@@ -1055,8 +1055,8 @@
     },
     {
       "path": "scripts/test_core_deployment_preflight.mjs",
-      "sha256": "856596159a44e52dc670b7e96759ef6eafb5636e86ea7c37cb4b2749087b344f",
-      "size": 6745
+      "sha256": "c89d461b71bb716331667c8a99865f92779c8851855422b074f6d1dd5f599daa",
+      "size": 6746
     },
     {
       "path": "scripts/test_deployment_separation.mjs",

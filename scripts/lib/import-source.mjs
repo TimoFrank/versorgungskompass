@@ -6,7 +6,7 @@ import path from "node:path";
 
 export const manifestPath = "source-provenance.json";
 export const upstreamManifestPath = "dokumentation/quellen/ursprungsmanifest.json";
-export const coreRepository = "https://github.com/TimoFrank/mitmachen-gematik";
+export const coreRepository = "https://github.com/TimoFrank/versorgungskompass";
 const excluded = /^(?:node_modules\/|dist\/|\.env(?:\.|$)|deploy\/(?:terraform|typo3|google-[^/]+)\/|config\/(?:pre-gematik|pages-demo)\/|frontend\/(?:demo|identity-portal|pages|public-entry)\/|frontend\/data\/(?:demo-data|public-politics-directory)\.js$|public\/brand\/modules\/(?:stakeholder|formate)\/|api\/(?:google-|mac-sync|password-reset|user-administration|typo3-registration))/u;
 const untrackedArtifacts = /^(?:node_modules|dist|test-results|playwright-report|\.playwright-cli|output|outputs|coverage|backups)\/|(?:^|\/)node_modules\/|(?:^|\/)\.DS_Store$|^\.env(?:\.|$)|\.(?:log|tmp|bak)$/u;
 
