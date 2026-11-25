@@ -2,7 +2,7 @@
 
 Stand: 13. November 2026
 
-Das private GitHub-Repo [mitmachen-gematik](https://github.com/TimoFrank/mitmachen-gematik) stellt den Quellstand bereit. Nach dem geprüften Import führt das institutionelle GitLab den gematik-Betriebsstand.
+Das GitHub-Repository [versorgungskompass](https://github.com/TimoFrank/versorgungskompass) stellt den Quellstand bereit. Nach dem geprüften Import führt das institutionelle GitLab den gematik-Betriebsstand.
 
 ## Vorbereitung
 
@@ -11,7 +11,7 @@ Den Anwendungsstand vollständig prüfen, per PR auf `main` integrieren und den 
 ## Repository per URL importieren
 
 1. Auf der Zielinstanz prüfen, dass **Repository by URL** aktiviert ist und der Importzugang die erforderlichen Rechte besitzt.
-2. **New project/repository → Import project → Repository by URL** wählen. Als Quelle `https://github.com/TimoFrank/mitmachen-gematik.git` verwenden. Zielbereich, Projektname und private Sichtbarkeit prüfen.
+2. **New project/repository → Import project → Repository by URL** wählen. Als Quelle `https://github.com/TimoFrank/versorgungskompass.git` verwenden. Zielbereich, Projektname und private Sichtbarkeit prüfen.
 3. GitHub-Benutzername und kurzlebigen PAT mit Lesezugriff auf dieses Repository in die Zugangsfelder eintragen. Den Token nicht in die URL einbetten oder in Git, Dokumentation und Logs schreiben.
 4. Import starten. Danach den vollständigen `main`-Commit-SHA und das Taginventar mit der bestätigten GitHub-Quelle vergleichen. Der URL-Import übernimmt deren Commits und erzeugt keinen Release-Tag.
 5. Importergebnis und institutionelle Quellverantwortung protokollieren. Die Pipeline auf die bestätigte GitLab-Quell-URL und geschützten Plattformwerte ausrichten.

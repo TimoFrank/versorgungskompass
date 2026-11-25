@@ -1,4 +1,4 @@
-# Arbeitsregeln für mitmachen-gematik
+# Arbeitsregeln für versorgungskompass
 
 Dieses Repository führt ausschließlich den Versorgungs-Kompass und Hospitations-Kompass für den gematik-Zielbetrieb. Das Originalrepo `TimoFrank/mitmachen` bleibt mit vier Kompassen und öffentlicher Demo aktiv. Änderungen dieses Auftrags nicht ungefragt dorthin übertragen.
 
